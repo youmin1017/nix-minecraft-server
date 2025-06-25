@@ -41,7 +41,7 @@ in
       hosts = [
         {
           name = "nixos-mc";
-          config = ./nixos-lab/configuration.nix;
+          config = ./nixos-mc/configuration.nix;
         }
       ];
     in
