@@ -26,7 +26,6 @@
     {
       self,
       nixpkgs,
-      darwin,
       ...
     }@inputs:
     let
@@ -35,6 +34,5 @@
     {
       overlays = import ./overlays { inherit inputs; };
       nixosConfigurations = hosts.nixosConfigurations;
-      # darwinConfigurations = hosts.darwinConfigurations;
     };
 }
