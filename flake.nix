@@ -20,6 +20,8 @@
     };
 
     impurity.url = "github:outfoxxed/impurity.nix";
+
+    nix-minecraft.url = "github:Infinidoge/nix-minecraft";
   };
 
   outputs =
