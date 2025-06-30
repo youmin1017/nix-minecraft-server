@@ -70,6 +70,24 @@
             url = "https://cdn.modrinth.com/data/bfneejKo/versions/7Ma32dRR/syncmatica-fabric-1.21.5-0.3.14-sakura.4.jar";
             sha256 = "sha256-P6LTuuwcoK067HGJBqLh2Yla5zGx2vC2RPC269Onre0=";
           };
+
+          # Villager related mods
+          Trade-Cycling = pkgs.fetchurl {
+            url = "https://cdn.modrinth.com/data/qpPoAL6m/versions/dirqc2Im/trade-cycling-fabric-1.21.5-1.0.18.jar";
+            sha256 = "sha256-aT01Rf99BxGPMxQ+rXm+ipGVNV//k23CBlsxGGEqYLk=";
+          };
+          Villager-Trade-Stats = pkgs.fetchurl {
+            url = "https://cdn.modrinth.com/data/zg7MrtH6/versions/ypAzwn25/VillagerTradeStats-1.0.0%2B1.21.5.jar";
+            sha256 = "sha256-gBG0b5QhV77nawJaN8emTDMfCEUQPxgPsXIxltt7cnU=";
+          };
+          Fast-Trading = pkgs.fetchurl {
+            url = "https://cdn.modrinth.com/data/Ht0RRAt0/versions/iRWqjd2a/fasttrading-0.2.2%2B1.21.5.jar";
+            sha256 = "sha256-y9vRceE7ZQkJ+GpH7Qt5VAReaaUZm0tjb7HBH9WvMUA=";
+          };
+          Visible-Traders = pkgs.fetchurl {
+            url = "https://cdn.modrinth.com/data/AhllI99f/versions/IWSGXIKe/VisibleTraders-0.0.9%2B1.21.5.jar";
+            sha256 = "sha256-uO7PrO/iKMM8rgC13EiLw9te+b7iLaxAajcqvTY8Sc8=";
+          };
         }
       );
     };
