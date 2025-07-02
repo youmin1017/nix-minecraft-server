@@ -88,6 +88,20 @@
             url = "https://cdn.modrinth.com/data/AhllI99f/versions/IWSGXIKe/VisibleTraders-0.0.9%2B1.21.5.jar";
             sha256 = "sha256-uO7PrO/iKMM8rgC13EiLw9te+b7iLaxAajcqvTY8Sc8=";
           };
+          # Veinminer
+          Veinminer = pkgs.fetchurl {
+            url = "https://cdn.modrinth.com/data/OhduvhIc/versions/VDHlG2JK/veinminer-fabric-2.4.2.jar";
+            sha256 = "sha256-gNr71pHPAlupLQUxfEW0al1tTRo7qpesHreyy1bRk0I=";
+          };
+          Silk = pkgs.fetchurl {
+            url = "https://cdn.modrinth.com/data/aTaCgKLW/versions/mIi7Urva/silk-all-1.11.1.jar";
+            sha256 = "sha256-+/2k18A3k2ZAoFT4SnQ35McbuxHS//X7z+1zvvzDKts=";
+          };
+          # Servux: MiniHUD Dependency
+          Servux = pkgs.fetchurl {
+            url = "https://cdn.modrinth.com/data/zQhsx8KF/versions/wmkcZoL1/servux-fabric-1.21.5-0.6.1.jar";
+            sha256 = "sha256-u0n6IEtK9fkiQi71hqrKxTZJztxICFX72wjGzY3CBKY=";
+          };
         }
       );
     };
