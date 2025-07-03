@@ -45,6 +45,10 @@
             url = "https://cdn.modrinth.com/data/VX3TgwQh/versions/4r4Fpql5/carpet-extra-1.21.5-1.4.170.jar";
             sha256 = "sha256-zFX2DjapU7rNmEfDkbWLEH9I0NEiV2/y0M1ZnK1zi54=";
           };
+          Gugle-Carpet-Additions = pkgs.fetchurl {
+            url = "https://cdn.modrinth.com/data/UHjbX5mk/versions/tIWVNRip/gugle-carpet-addition-mc1.21.5-v2.10.0%2Bbuild.22.jar";
+            sha256 = "sha256-iSAMk+Zb05lIIOXma35yh6vtV9kJFR/Ln+E1+ijbIzU=";
+          };
           # 優化遊戲物理、生物AI...等等
           Lithium = pkgs.fetchurl {
             url = "https://cdn.modrinth.com/data/gvQqBUqZ/versions/xcELvp6R/lithium-fabric-0.16.3%2Bmc1.21.5.jar";
@@ -101,6 +105,11 @@
           Servux = pkgs.fetchurl {
             url = "https://cdn.modrinth.com/data/zQhsx8KF/versions/wmkcZoL1/servux-fabric-1.21.5-0.6.1.jar";
             sha256 = "sha256-u0n6IEtK9fkiQi71hqrKxTZJztxICFX72wjGzY3CBKY=";
+          };
+          # Minimap: Xaero's Minimap
+          Xaeros-Minimap = pkgs.fetchurl {
+            url = "https://cdn.modrinth.com/data/1bokaNcj/versions/7qxGLo8w/Xaeros_Minimap_25.2.7_Fabric_1.21.5.jar";
+            sha256 = "sha256-xuxGRwLPARErXjaL/AyF4rtJ51Pxfm69ZhU7BjHZHq8=";
           };
         }
       );
